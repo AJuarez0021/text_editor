@@ -1,0 +1,195 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef __BORLANDC__
+#include "winres.h"
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Mexican) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESM)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MEXICAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_POPUP MENU DISCARDABLE 
+BEGIN
+    POPUP "Guardar Como"
+    BEGIN
+        MENUITEM "Gurdar como archivo .txt",    ID_POPUP_TXT
+        MENUITEM "Guardar como archivo .pdf",   ID_POPUP_PDF
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 187, 109
+STYLE WS_CAPTION | WS_SYSMENU
+CAPTION "Acerca de"
+FONT 8, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",IDC_ABOUT_OK,68,88,50,14
+    ICON            IDI_ICON1,IDC_STATIC,26,26,20,20
+    LTEXT           "Txt to Pdf",IDC_STATIC,75,17,35,9
+    LTEXT           "Version 1.0",IDC_STATIC,73,33,40,9
+    LTEXT           "A. Juarez",IDC_STATIC,78,50,34,9
+    GROUPBOX        "",IDC_STATIC,7,7,173,77
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 102
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      DISCARDABLE     "default1.bin"
+#endif    // Spanish (Mexican) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_CAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&Archivo"
+    BEGIN
+        MENUITEM "&Nuevo",                      ID_FILE_NEW
+        MENUITEM "&Abrir",                      ID_FILE_OPEN
+        POPUP "&Guardar"
+        BEGIN
+            MENUITEM "Guardar como archivo .txt",   ID_FILE_TXT
+            MENUITEM "Guardar como archivo .pdf",   ID_FILE_PDF
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Imprimir",                    ID_FILE_PRINT
+        MENUITEM "&Salir",                      ID_FILE_EXIT
+    END
+    POPUP "Editar"
+    BEGIN
+        MENUITEM "Deshacer",                    ID_EDIT_UNDO
+        MENUITEM "Cortar",                      ID_EDIT_CUT
+        MENUITEM "Copiar",                      ID_EDIT_COPY
+        MENUITEM "Pegar",                       ID_EDIT_PASTE
+        MENUITEM "Borrar",                      ID_EDIT_DELETE
+        MENUITEM "Seleccionar Todo",            ID_EDIT_SELECTALL
+    END
+    POPUP "Buscar"
+    BEGIN
+        MENUITEM "Buscar",                      ID_SEARCH_FIND
+        MENUITEM "Buscar Siguiente",            ID_SEARCH_NEXT
+        MENUITEM "Reemplazar",                  ID_SEARCH_REPLACE
+    END
+    POPUP "Formato"
+    BEGIN
+        MENUITEM "Cambiar Fuente",              ID_FORMAT_FONT
+    END
+    POPUP "Ayuda"
+    BEGIN
+        MENUITEM "Contenido",                   IDC_HELP_CONTENT
+        MENUITEM "Acerca de",                   IDC_HELP_ABOUT
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#ifndef __BORLANDC__\r\n"
+    "#include ""winres.h""\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
