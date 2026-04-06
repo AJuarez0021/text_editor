@@ -56,7 +56,3 @@ To build, open `TxtToPdf.dsw` in Visual C++ 6.0 and build the solution. Make sur
 
 - PDF conversion writes a temporary file to `C:\temp.txt` during the export process, which is deleted on exit.
 - PDF pages use the Times-Roman font at 9pt with A4 dimensions. Text automatically continues on a new page when the current one is full.
-
-## Author
-
-Abel Juarez
